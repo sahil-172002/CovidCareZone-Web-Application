@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Covid Avengers-JSCOE</title>
+
+
+
+
+</head>
+
+<body>
+
+  <!doctype html>
+  <html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="shortcut icon" href="C:\Users\ATHARVA JADHAV\Desktop\MIN PBL\images\favicon.ico" type="image/x-icon">  
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      -->
+
+    <!-- navbar section -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-3 fixed-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><b>Team Avengers</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" target="_blank"
+                href="https://selfregistration.cowin.gov.in/">Vaccination</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#covid-counter">Cases Status</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" target="_blank"
+                href="https://www.pmcares.gov.in/en/">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#video">Precautions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" target="_blank"
+                href="https://www.mohfw.gov.in/covid_vaccination/vaccination/faqs.html">Covid-QnA</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar section end -->
+
+    <!-- Carousel section -->
+
+    <div id="carouselExampleCaptions" class="carousel slide py-5" data-bs-ride="carousel">
+      <div class="carousel-indicators arousel slide carousel-fade">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner arousel slide carousel-fade">
+        <div class="carousel-item active">
+          <img src="images/covid.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>STAY HOME ! STAY SAFE !</h1>
+            <p>
+              <h3> Nothing lasts forever. Not even the coronavirus.</h3>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item arousel slide carousel-fade">
+          <img src="images/vacc.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>GET VACCINATED , SAVE LIVES !</h1>
+            <p>
+              <h3>Vaccination Stops Sprade Of Virus .</h3>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hand.jpg" class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1><b>Be A Hero & Brake The Chain !</b></h1>
+            <p>
+              <h3>Download Arogyasethu App Which Helps The Govt. of India Identify Hotspots</h3>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Carousel section end -->
+
+    <div class="container bg-info py-2 ">
+      <h2 class="mt-1 mb-2 text-center  font-bolder "> IMPORTANCE OF VACCINATION</h2>
+
+    </div>
+
+    <!-- importance of vaccination section start -->
+
+    <div class="container">
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/TEST2.png" alt="">
+
+                <div class="card-body">
+                  <p class="card-text">COVID 19-vaccines are effective. They can keep you from getting and spreading the
+                    virus that causes COVID-19.</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+
+
+                <div class="card-body">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/TEST.jpg" alt="">
+                  <p class="card-text">Getting infants and children vaccinated not only protects them but the entire
+                    family and prevents the spread of serious diseases.</p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/hand.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Studies have shown that vaccination provides a strong boost in protection in
+                    people who have recovered from COVID-19,.</p>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- importance of vaccination section ends -->
+    <div class="container bg-info py-2 mt-5 mb-5">
+      <h2 id="covid-counter" class="mt-1 mb-2 text-center  font-bolder"> COVID CASES RECORD</h2>
+
+    </div>
+    <!-- covid caes live counter section start here -->
+
+    <div class="container mr-4 ml-5">
+      <iframe style="border:0; width: 100%; height: 500px;" scrolling="no" src="https://www.covid19india.org/state/MH"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- covid caes live counter section ends here -->
+    <div id="video" class="container bg-info py-2 mt-5 mb-5">
+      <h2 id="covid-counter" class="mt-1 mb-2 text-center  font-bolder"> PRECAUTIONS</h2>
+
+    </div>
+    <div class="container">
+
+
+      <iframe width="100%" height="500" src="https://www.youtube.com/embed/-Fdo_HT3X80?autoplay=1"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; &autoplay=1 clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <div class="container bg-info py-2 mt-5">
+      <h2 class="mt-1 mb-2 text-center  font-bolder"> CONTACT US</h2>
+
+    </div>
+
+    <div class="container pt-5">
+
+      <h4>Jayawantrao Sawant College of Engineering is approved by the All India Council of Technical Education,
+        Delhi, Recognized by Govt. of Maharashtra and affiliated to Pune University. It was established by JSPM at
+        Handewadi Road, Hadapsar, Pune, Maharashtra, India</h4>
+    </div>
+
+    <!-- contact us location map start here  -->
+    <div class="container my-5">
+      <iframe style="border:0; width: 100%; height: 300px;"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.9850079098665!2d73.92967375089292!3d18.484338275042955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea03ddfa7ce9%3A0xf4a907522737aa6e!2sJayawantrao%20Sawant%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1625136959482!5m2!1sen!2sin"
+        frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- contact us location map ends here  -->
+    <div class="container mr-4 ml-5">
+      <iframe style="border:0; width: 100%; height: 700px;" scrolling="no" src="contactus.html" frameborder="0"
+        allowfullscreen></iframe>
+    </div>
+    <!-- Footer section start here -->
+    <div class="container">
+      <footer class=" text-muted text-center text-small  ">
+        <p class="mb-1">© 2020–2021 Team Avengers-JSCOE</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Footer section Ends here here -->
+
+
+    <!-- contact us form 
+    links linkining '
+    heading 
+    video 
+     -->
+  </body>
+
+  </html>
